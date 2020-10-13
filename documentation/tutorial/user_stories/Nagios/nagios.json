@@ -22,20 +22,20 @@
     "instrumentations": {
       "resources": [
         {
+            "id": "nr_nagios",
+            "resource_ids": ["host1"],
+            "provider": "newrelic",
+            "source_repository": "-b nagios https://github.com/polfliet/demo-newrelic-instrumentation.git",
+            "deploy_script_path": "deploy/nagios/roles",
+            "version": "2.6.0"
+        },
+        {
           "id": "nr_infra",
           "resource_ids": ["host1"],
           "provider": "newrelic",
           "source_repository": "-b main https://github.com/newrelic/demo-newrelic-instrumentation.git",
           "deploy_script_path": "deploy/linux/roles",
           "version": "1.12.1"
-        },
-        {
-          "id": "nr_nagios",
-          "resource_ids": ["host1"],
-          "provider": "newrelic",
-          "source_repository": "-b nagios https://github.com/polfliet/demo-newrelic-instrumentation.git",
-          "deploy_script_path": "deploy/nagios/roles",
-          "version": "2.6.0"
         }
       ],
       "services": [
