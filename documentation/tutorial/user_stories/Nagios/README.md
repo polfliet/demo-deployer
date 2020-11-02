@@ -57,7 +57,8 @@ Completed at 2020-10-13 08:27:45 +0000
 [INFO]   /tmp/jsmith-nagios/deploy_summary.txt
 ```
 
-After login to New Relic One, you should see a "Nagios-Host1" in Infrastructure
+After login to New Relic One, you should see a "Nagios-Host1" in Infrastructure.
+In New Relic Infrastructure, navigate to Third-party services and click on the Nagios dashboard.
 
 ## Teardown
 
